@@ -1,14 +1,14 @@
 body {
-    font-family: 'Teko', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 .parallax h1 {
     margin-top: 50px;
-    font-size: 3.3rem;
+    font-size: 4rem;
     color:white;
 }
 .navbar-expand-lg {
     flex-flow: column;
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 .navbar-expand-lg li {
     margin-right: 50px;
@@ -44,7 +44,7 @@ body {
     background-size: cover;
 }
 .parallax2 h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     color: white;
     margin-top: 20px;
 }
@@ -65,7 +65,7 @@ body {
     background-size: cover;
 }
 .pattern h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     color: white;
 }
 .pattern .btn {
@@ -86,6 +86,9 @@ body {
     margin: 25px;
 }
 @media (min-width: 320px) and (max-width: 479px){
+    .parallax h1 {
+        font-size: 1.5rem;
+    }
     body {
         width: min-content;
     }
